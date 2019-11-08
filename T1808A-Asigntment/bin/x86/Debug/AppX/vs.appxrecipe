@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-KMSARQD</Machine>
+    <WindowsUser>OliverQueen</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>bcc6a423-fd33-4481-95ed-c7c32863c893</PackageIdentityName>
+    <PackageIdentityPublisher>CN=OliverQueen</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>6BE70A091CF565F96D803F66ACBC2780A44175688BB03D45584F15416390110B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>bcc6a423-fd33-4481-95ed-c7c32863c893_1.0.0.0_x86__4atzxa6p3drqe</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>bcc6a423-fd33-4481-95ed-c7c32863c893_4atzxa6p3drqe!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>bcc6a423-fd33-4481-95ed-c7c32863c893</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=OliverQueen</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-08T09:26:32.877</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\bin\x86\Debug\T1808A-Asigntment.exe">
+      <PackagePath>entrypoint\T1808A-Asigntment.exe</PackagePath>
+      <Modified>2019-11-08T09:26:32.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2019-04-21T18:06:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2019-07-22T07:01:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\.nuget\packages\sqlitepcl\3.8.7.2\lib\netcore451\SQLitePCL.dll">
+      <PackagePath>SQLitePCL.dll</PackagePath>
+      <Modified>2014-12-09T04:04:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T11:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\.nuget\packages\sqlitepcl\3.8.7.2\build\netcore451\SQLitePCL.Ext.dll">
+      <PackagePath>SQLitePCL.Ext.dll</PackagePath>
+      <Modified>2014-12-09T04:04:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2019-10-31T07:30:19.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2019-10-08T13:00:06.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-08T13:00:06.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-08T13:00:06.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-08T13:00:06.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-08T13:00:06.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-08T13:00:06.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-08T13:00:06.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\bin\x86\Debug\T1808A-Asigntment.xr.xml">
+      <PackagePath>T1808A-Asigntment.xr.xml</PackagePath>
+      <Modified>2019-11-08T09:14:52.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2019-11-08T09:18:23.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\bin\x86\Debug\Demo\NavigationViewDemo.xbf">
+      <PackagePath>Demo\NavigationViewDemo.xbf</PackagePath>
+      <Modified>2019-11-08T09:18:23.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\bin\x86\Debug\Demo\ScrollViewerDemo.xbf">
+      <PackagePath>Demo\ScrollViewerDemo.xbf</PackagePath>
+      <Modified>2019-11-08T09:18:23.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2019-11-08T09:18:23.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\bin\x86\Debug\Music\AllMusicPage.xbf">
+      <PackagePath>Music\AllMusicPage.xbf</PackagePath>
+      <Modified>2019-11-08T09:18:23.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\bin\x86\Debug\Music\CreateMusicPage.xbf">
+      <PackagePath>Music\CreateMusicPage.xbf</PackagePath>
+      <Modified>2019-11-08T09:18:23.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\bin\x86\Debug\Music\MyMusicPage.xbf">
+      <PackagePath>Music\MyMusicPage.xbf</PackagePath>
+      <Modified>2019-11-08T09:18:23.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\bin\x86\Debug\Pages\ListSongPage.xbf">
+      <PackagePath>Pages\ListSongPage.xbf</PackagePath>
+      <Modified>2019-11-08T09:18:23.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\bin\x86\Debug\Pages\LoginPage.xbf">
+      <PackagePath>Pages\LoginPage.xbf</PackagePath>
+      <Modified>2019-11-08T09:18:23.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\bin\x86\Debug\Pages\RegisterPage.xbf">
+      <PackagePath>Pages\RegisterPage.xbf</PackagePath>
+      <Modified>2019-11-08T09:18:23.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\bin\x86\Debug\Pages\UserInformation.xaml.xbf">
+      <PackagePath>Pages\UserInformation.xaml.xbf</PackagePath>
+      <Modified>2019-11-08T09:18:23.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T10:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2019-11-08T09:14:53.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\OliverQueen\source\repos\T1808A-Asigntment\T1808A-Asigntment\bin\x86\Debug\Core\T1808A-Asigntment.exe">
+      <PackagePath>T1808A-Asigntment.exe</PackagePath>
+      <Modified>2019-11-08T09:26:32.867</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

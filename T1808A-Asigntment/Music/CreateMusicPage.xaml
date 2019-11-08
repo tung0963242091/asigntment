@@ -1,0 +1,67 @@
+﻿<Page
+    x:Class="T1808A_Asigntment.Pages.MusicPage.CreateMusicPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:T1808A_Asigntment.Pages.MusicPage"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="10"></Setter>
+            <Setter Property="FontSize" Value="15"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="10"></Setter>
+        </Style>
+        <Style TargetType="StackPanel">
+            <Setter Property="Margin" Value="10"></Setter>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="10"></Setter>
+        </Style>
+    </Page.Resources>
+
+    <ScrollViewer Background="Coral">
+        <ScrollViewer.Content>
+            <StackPanel>
+                <TextBlock FontSize="30" Margin="20">Create Music Form</TextBlock>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" >Music Name</TextBlock>
+                    <TextBox Grid.Row="0" Grid.Column="1" x:Name="MusicName"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0">Author</TextBlock>
+                    <TextBox Grid.Row="1" Grid.Column="1" x:Name="Author"/>
+                    <TextBlock Grid.Row="2" Grid.Column="0">Singer</TextBlock>
+                    <TextBox Grid.Row="2" Grid.Column="1" x:Name="Singer"/>
+                    <TextBlock Grid.Row="3" Grid.Column="0">Description</TextBlock>
+                    <TextBox Grid.Row="3" Grid.Column="1" x:Name="Description"/>
+                    <TextBlock Grid.Row="4" Grid.Column="0">Avatar</TextBlock>
+                    <TextBox Grid.Row="4" Grid.Column="1" x:Name="Avatar"/>
+                    <TextBlock Grid.Row="5" Grid.Column="0">Link</TextBlock>
+                    <TextBox Grid.Row="5" Grid.Column="1" x:Name="Link"/>
+                    <StackPanel Grid.Row="6" Grid.Column="1" Orientation="Horizontal">
+                        <Button x:Name="btnSubmit" Click="BtnSubmit_Click">Submit</Button>
+                        <Button Margin="10">Reset</Button>
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+        </ScrollViewer.Content>
+    </ScrollViewer>
+</Page>
