@@ -49,8 +49,8 @@ namespace T1808A_Asigntment.Demo
         private readonly List<(string Tag, Type Page)> _pages = new List<(string Tag, Type Page)>
         {
         ("home", typeof(RegisterPage)),
-        ("apps", typeof(LoginPage)),
-        ("games", typeof(ListSongPage)),
+        ("login", typeof(LoginPage)),
+        ("register", typeof(RegisterPage)),
         ("music", typeof(MyMusicPage)),
         ("information", typeof(UserInformation)),
         ("allmusic", typeof(AllMusicPage)),
@@ -83,7 +83,7 @@ namespace T1808A_Asigntment.Demo
             // If navigation occurs on SelectionChanged, this isn't needed.
             // Because we use ItemInvoked to navigate, we need to call Navigate
             // here to load the home page.
-            NavView_Navigate("home", new EntranceNavigationTransitionInfo());
+            NavView_Navigate("allmusic", new EntranceNavigationTransitionInfo());
 
             // Add keyboard accelerators for backwards navigation.
             var goBack = new KeyboardAccelerator { Key = VirtualKey.GoBack };

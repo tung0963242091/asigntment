@@ -19,7 +19,7 @@ namespace T1808A_Asigntment.Service
             throw new NotImplementedException();
         }
 
-        public void SignOutByDeleteToken()
+        public void SignOutByDeleteTokenAsync()
         {
             throw new NotImplementedException();
         }

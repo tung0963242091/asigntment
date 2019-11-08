@@ -198,7 +198,7 @@ namespace T1808A_Asigntment.Pages.MusicPage
         private void BtnSignOut_Click(object sender, RoutedEventArgs e)
         {
             ProjectConfiguration.CurrentMemberCredential = null;
-            this._fileService.SignOutByDeleteToken();
+            this._fileService.SignOutByDeleteTokenAsync();
             this.Frame.Navigate(typeof(MainPage));
         }
 

@@ -12,6 +12,6 @@ namespace T1808A_Asigntment.Service
         Task<bool> SaveMemberCredentialToFile(MemberCredential memberCredential);
 
         Task<MemberCredential> ReadMemberCredentialFromFile();
-        void SignOutByDeleteToken();
+        void SignOutByDeleteTokenAsync();
     }
 }

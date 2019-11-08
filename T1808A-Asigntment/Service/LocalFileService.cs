@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Windows.Storage;
 using Newtonsoft.Json;
 using T1808A_Asigntment.Entity;
+using System.Diagnostics;
 
 namespace T1808A_Asigntment.Service
 {
@@ -49,7 +50,21 @@ namespace T1808A_Asigntment.Service
             return null;
         }
 
-        public void SignOutByDeleteToken()
+        public async Task SignOutByDeleteTokenAsync()
+        {
+            try
+            {
+                var storageFolder = await ApplicationData.Current.LocalFolder.CreateFolderAsync("AccountFile",
+                    CreationCollisionOption.OpenIfExists);
+                await storageFolder.DeleteAsync(StorageDeleteOption.Default);
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine(e.ToString());
+            }
+        }
+
+        void IFileService.SignOutByDeleteTokenAsync()
         {
             throw new NotImplementedException();
         }

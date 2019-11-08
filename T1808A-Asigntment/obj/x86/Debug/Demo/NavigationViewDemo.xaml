@@ -18,12 +18,22 @@
                 <NavigationViewItemSeparator/>
                 <NavigationViewItemHeader x:ConnectionId='3' x:Name="MainPagesHeader"
                                            Content="Main pages"/>
-                <NavigationViewItem Tag="apps" Content="Apps">
+                <NavigationViewItem Tag="register" Content="Register">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xEB3C;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
-                <NavigationViewItem Tag="games" Content="Games">
+                <NavigationViewItem Tag="mymusic" Content="Mymusic">
+                    <NavigationViewItem.Icon>
+                        <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xEB3C;"/>
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem Tag="allmusic" Content="AllMusic">
+                    <NavigationViewItem.Icon>
+                        <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xEB3C;"/>
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem Tag="login" Content="login">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE7FC;"/>
                     </NavigationViewItem.Icon>
